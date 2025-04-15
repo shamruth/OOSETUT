@@ -3,6 +3,6 @@ def fact(n):
         return 1
     else:
         return(n * fact(n-1))
-x=5
-result=fact(x)
+result=fact(5)
 print(result)
+
