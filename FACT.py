@@ -3,6 +3,4 @@ def fact(n):
         return 1
     else:
         return(n * fact(n-1))
-x=5
-result=fact(x)
-print(result)
+print(f"FACTORIAL OF GIVEN NUMBER IS:{fact(int(input("Enter a number to find factorial")))}")
