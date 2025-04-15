@@ -4,4 +4,5 @@ def fact(n):
     else:
         return(n * fact(n-1))
 x=5
-print(fact(x))
+result=fact(x)
+print(result)
